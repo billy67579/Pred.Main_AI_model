@@ -4,7 +4,7 @@ from scipy.signal import butter, filtfilt, convolve
 import matplotlib.pyplot as plt
 
 # Load the dataset (replace with your file path)
-file_path = "/home/besong/project/project_data/wind-check/sögel_7.csv"  # Update with your actual file path
+file_path = "/home/besong/project/project_data/turb_1.csv"  # Update with your actual file path
 data = pd.read_csv(file_path)
 
 # Sampling rate (in Hz) - calculated from the `Time_second` column
